@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
+import Blog from './components/Blog/Blog';
 
 function App() {
     return (
@@ -25,7 +26,7 @@ function App() {
                         <About />
                     </Route>
                     <Route exact path="/blog">
-                        Blog
+                        <Blog />
                     </Route>
                     <Route path="*">404 Not found</Route>
                 </Switch>

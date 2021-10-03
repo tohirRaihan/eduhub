@@ -1,10 +1,11 @@
+import Hero from '../Hero/Hero';
 import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home component</h1>
-        </div>
+        <main>
+            <Hero></Hero>
+        </main>
     );
 }
 

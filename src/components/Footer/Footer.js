@@ -2,10 +2,20 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer component</h1>
-        </div>
+        <footer className="bg-light py-3 border text-center text-muted">
+            <p>
+                &copy; 2021 EduHub, All Rights Reserved. Developed By{' '}
+                <a
+                    rel="noopener noreferrer"
+                    href="https://github.com/tohirRaihan"
+                    target="_blank"
+                    className="fw-bold text-decoration-none"
+                >
+                    Tohir Raihan
+                </a>
+            </p>
+        </footer>
     );
-}
+};
 
 export default Footer;

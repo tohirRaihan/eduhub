@@ -7,7 +7,7 @@ import './Blog.css';
 const Blog = () => {
     return (
         <Col md={4}>
-            <Card>
+            <Card className='shadow'>
                 <Card.Img
                     variant="top"
                     src="https://picsum.photos/id/870/356/212?blur"

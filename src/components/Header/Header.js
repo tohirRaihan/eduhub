@@ -23,8 +23,8 @@ const Header = () => {
                             <Link to="/courses" className="nav-link">
                                 Courses
                             </Link>
-                            <Link to="/blog" className="nav-link">
-                                Blog
+                            <Link to="/blogs" className="nav-link">
+                                Blogs
                             </Link>
                         </Nav>
                     </Navbar.Collapse>

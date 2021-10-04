@@ -4,8 +4,9 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Blog from './components/Blog/Blog';
 import Courses from './components/Courses/Courses';
+import Error from './components/Error/Error';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
     return (
@@ -25,10 +26,12 @@ function App() {
                     <Route exact path="/about">
                         <About />
                     </Route>
-                    <Route exact path="/blog">
-                        <Blog />
+                    <Route exact path="/blogs">
+                        <Blogs />
                     </Route>
-                    <Route path="*">404 Not found</Route>
+                    <Route path="*">
+                        <Error />
+                    </Route>
                 </Switch>
                 <Footer />
             </BrowserRouter>

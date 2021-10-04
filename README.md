@@ -106,8 +106,27 @@ This section has moved here:
         },
         courseImage: 'https://picsum.photos/id/{{integer(1, 900)}}/356/212?blur',
         price: '{{integer(101, 199)}}',
-        priceColor: '{{random("primary", "info", "danger", "warning",
+        priceColor: '{{random("primary", "info", "danger", "warning", "success")}}',
         latest: false,
+        title: '{{company()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{surname().toLowerCase()}}'
+    }
+]
+```
+
+
+```
+[
+    '{{repeat(50)}}',
+    {
+        id: '{{index() + 1}}',
+        blogger: {
+        name: '{{firstName()}} {{surname()}}',
+        image: 'https://randomuser.me/api/portraits/thumb/{{random("men", "women")}}/{{integer(1, 100)}}.jpg'
+        },
+        blogImage: 'https://picsum.photos/id/{{integer(1, 900)}}/356/212?blur',
+        badgeColor: '{{random("primary", "info", "danger", "warning", "success")}}',
+        latest: false,
+        date: '{{date(new Date(2020, 0, 1), new Date(), "MMM dd, YYYY")}}',
         title: '{{company()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{surname().toLowerCase()}}'
     }
 ]

@@ -2,7 +2,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="bg-light py-3 border text-center text-muted">
+        <footer className="bg-light py-3 mt-5 border text-center text-muted">
             <p>
                 &copy; 2021 EduHub, All Rights Reserved. Developed By{' '}
                 <a

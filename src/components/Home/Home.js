@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <main>
             <Hero></Hero>
-            <Courses></Courses>
-            <Blogs></Blogs>
+            <Courses latest={true}></Courses>
+            <Blogs latest={true}></Blogs>
         </main>
     );
 }

@@ -17,7 +17,7 @@ const Blog = () => {
                     <Card.Title className="text-start my-4">
                         Become a product Manager learn the skills & job.
                     </Card.Title>
-                    <Card.Text className="d-flex justify-content-between align-items-center my-3">
+                    <div className="d-flex justify-content-between align-items-center my-3">
                         <div className="blog-writer d-flex align-items-center">
                             <Image
                                 className="p-1 shadow"
@@ -25,20 +25,20 @@ const Blog = () => {
                                 src="https://randomuser.me/api/portraits/thumb/men/62.jpg"
                                 roundedCircle
                             />
-                            <p className="m-0 ms-2 text-muted">Jim Séchen</p>
+                            <span className="m-0 ms-2 text-muted">Jim Séchen</span>
                         </div>
                         <div className="blog-date text-muted">
                             <FontAwesomeIcon icon={faClock} className="me-2" />
                             July 02, 2022
                         </div>
-                    </Card.Text>
+                    </div>
                 </Card.Body>
                 <Card.Footer className="d-flex justify-content-between align-items-center bg-white border-top-0">
                     <div className="course-price">
                         {/* <span className="text-success fw-bold h3">$32</span> */}
                     </div>
                     <div className="course-detail">
-                        <Link className="text-dark text-decoration-none btn btn-sm btn-warning">
+                        <Link to='' className="text-dark text-decoration-none btn btn-sm btn-warning">
                             Read More{' '}
                         <FontAwesomeIcon icon={faArrowRight} />
                         </Link>

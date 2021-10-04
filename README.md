@@ -92,7 +92,7 @@ This section has moved here:
 
 ```
 [
-    '{{repeat(50)}}',
+    '{{repeat(12)}}',
     {
         id: '{{index() + 1}}',
         lession: '{{integer(43, 150)}}',
@@ -116,7 +116,7 @@ This section has moved here:
 
 ```
 [
-    '{{repeat(50)}}',
+    '{{repeat(12)}}',
     {
         id: '{{index() + 1}}',
         blogger: {
@@ -127,7 +127,7 @@ This section has moved here:
         badgeColor: '{{random("primary", "info", "danger", "warning", "success")}}',
         latest: false,
         date: '{{date(new Date(2020, 0, 1), new Date(), "MMM dd, YYYY")}}',
-        title: '{{company()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{surname().toLowerCase()}}'
+        title: '{{company()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{surname().toLowerCase()}}'
     }
 ]
 ```

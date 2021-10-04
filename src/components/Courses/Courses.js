@@ -20,7 +20,7 @@ const Courses = (props) => {
         <section className="courses my-5">
             <Container>
                 <Row className="g-4">
-                    <h1 className="fw-bold pt-5 mb-4">
+                    <h1 className="fw-bold pt-5">
                         Find The Right <br /> Online Course For You
                     </h1>
                     {latest

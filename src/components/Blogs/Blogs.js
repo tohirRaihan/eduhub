@@ -22,7 +22,7 @@ const Blogs = (props) => {
                     <h1 className="fw-bold pt-5">
                         We Share <br /> Our Thoughts On Design
                     </h1>
-                    <p className="text-muted mb-5">
+                    <p className="text-muted mt-0">
                         You don't have to struggle alone, you've got our
                         assistance and help.
                     </p>

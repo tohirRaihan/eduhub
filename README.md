@@ -1,17 +1,18 @@
 # EduHub
->_Build your dream team with some master mind of programming_ - __[click here to create](https://callbackwarriors.netlify.app/)__
+>_Collection of qualityful online courses that you need_ - __[click here to Visit](https://eduhub-tohir.netlify.app/)__
 
 ---
 
 ### What this App for
-- Collection of top notch programmers
-- We are here to protect any cyber attack
-- You have a budget? Build your team
+- Educational service for all
+- You need a quality education? We are here for you
+- This App is build with most popular framework `react`
 
 ### Installing the App
 - Download or clone this repository
 - Open project root in terminal
 - Give command __`npm install`__ and you are good to go
+- To run the project in local server give command __`npm start`__
 
 ### Generate JSON data
 Copy the code below and paste it in __[this website](https://www.json-generator.com/)__ and click `generate` to generate demo data of this project

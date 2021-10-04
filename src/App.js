@@ -4,8 +4,8 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Services from './components/Services/Services';
 import Blog from './components/Blog/Blog';
+import Courses from './components/Courses/Courses';
 
 function App() {
     return (
@@ -19,8 +19,8 @@ function App() {
                     <Route exact path="/home">
                         <Home />
                     </Route>
-                    <Route exact path="/services">
-                        <Services />
+                    <Route exact path="/courses">
+                        <Courses />
                     </Route>
                     <Route exact path="/about">
                         <About />

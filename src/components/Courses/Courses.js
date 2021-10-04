@@ -20,11 +20,11 @@ const Courses = (props) => {
         <section className="courses my-5">
             <Container>
                 <Row className="g-4">
-                    <h1 className="fw-bold py-5">
+                    <h1 className="fw-bold pt-5 mb-4">
                         Find The Right <br /> Online Course For You
                     </h1>
                     {latest
-                        ? latestCourses.map((course) => <Course course={course} />)
+                        ? latestCourses.map((course) => <Course key={course?.id} course={course} />)
                         : courses.map((course) => (
                               <Course key={course?.id} course={course} />
                           ))}

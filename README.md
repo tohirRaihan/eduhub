@@ -126,6 +126,7 @@ This section has moved here:
         blogImage: 'https://picsum.photos/id/{{integer(1, 900)}}/356/212?blur',
         badgeColor: '{{random("primary", "info", "danger", "warning", "success")}}',
         latest: false,
+        category: '{{random("Art & Design", "Marketing", "UX Design", "Engineering", "Audio & Music")}}',
         date: '{{date(new Date(2020, 0, 1), new Date(), "MMM dd, YYYY")}}',
         title: '{{company()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{city().toLowerCase()}} {{company().toLowerCase()}} {{firstName().toLowerCase()}} {{surname().toLowerCase()}}'
     }

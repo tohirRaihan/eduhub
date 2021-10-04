@@ -4,39 +4,38 @@ import { Badge, Card, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Blog.css';
 
-const Blog = () => {
+const Blog = (props) => {
+
+    const {badgeColor, blogImage, blogger, date, title, category} = props.blog;
     return (
         <Col md={4}>
-            <Card className='shadow'>
+            <Card className='shadow h-100'>
                 <Card.Img
                     variant="top"
-                    src="https://picsum.photos/id/870/356/212?blur"
+                    src={blogImage}
                 />
                 <Card.Body className="text-start">
-                    <Badge bg="primary">Primary</Badge>
+                    <Badge bg={badgeColor}>{category}</Badge>
                     <Card.Title className="text-start my-4">
-                        Become a product Manager learn the skills & job.
+                        {title}
                     </Card.Title>
                     <div className="d-flex justify-content-between align-items-center my-3">
                         <div className="blog-writer d-flex align-items-center">
                             <Image
                                 className="p-1 shadow"
                                 width="40"
-                                src="https://randomuser.me/api/portraits/thumb/men/62.jpg"
+                                src={blogger.image}
                                 roundedCircle
                             />
-                            <span className="m-0 ms-2 text-muted">Jim Séchen</span>
+                            <span className="m-0 ms-2 text-muted">{blogger.name}</span>
                         </div>
                         <div className="blog-date text-muted">
                             <FontAwesomeIcon icon={faClock} className="me-2" />
-                            July 02, 2022
+                            {date}
                         </div>
                     </div>
                 </Card.Body>
-                <Card.Footer className="d-flex justify-content-between align-items-center bg-white border-top-0">
-                    <div className="course-price">
-                        {/* <span className="text-success fw-bold h3">$32</span> */}
-                    </div>
+                <Card.Footer className="d-flex justify-content-end align-items-center bg-white border-top-0">
                     <div className="course-detail">
                         <Link to='' className="text-dark text-decoration-none btn btn-sm btn-warning">
                             Read More{' '}

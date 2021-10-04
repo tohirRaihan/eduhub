@@ -2,145 +2,157 @@
     {
         "id": 1,
         "blogger": {
-            "name": "Deann Buckner",
-            "image": "https://randomuser.me/api/portraits/thumb/women/60.jpg"
+            "name": "Ilene Charles",
+            "image": "https://randomuser.me/api/portraits/thumb/women/19.jpg"
         },
-        "blogImage": "https://picsum.photos/id/254/356/212?blur",
-        "badgeColor": "danger",
-        "latest": false,
-        "date": "Feb 27, 2021",
-        "title": "Zorromop kangle bender dowling zizzle carr garrett"
+        "blogImage": "https://picsum.photos/id/492/356/212?blur",
+        "badgeColor": "success",
+        "latest": true,
+        "category": "Engineering",
+        "date": "May 10, 2020",
+        "title": "Orbalix geekol nash fredericktown enquility cecilia pitts"
     },
     {
         "id": 2,
         "blogger": {
-            "name": "Simpson Riddle",
-            "image": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+            "name": "Zamora Suarez",
+            "image": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
         },
-        "blogImage": "https://picsum.photos/id/322/356/212?blur",
-        "badgeColor": "success",
-        "latest": false,
-        "date": "Aug 15, 2021",
-        "title": "Digigen photobin katheryn clay micronaut silva thomas"
+        "blogImage": "https://picsum.photos/id/565/356/212?blur",
+        "badgeColor": "primary",
+        "latest": true,
+        "category": "Audio & Music",
+        "date": "Jul 20, 2021",
+        "title": "Retrotex glasstep terra campo gazak conrad sandoval"
     },
     {
         "id": 3,
         "blogger": {
-            "name": "Leila Guerrero",
-            "image": "https://randomuser.me/api/portraits/thumb/men/22.jpg"
+            "name": "Manning Carver",
+            "image": "https://randomuser.me/api/portraits/thumb/men/96.jpg"
         },
-        "blogImage": "https://picsum.photos/id/580/356/212?blur",
-        "badgeColor": "primary",
-        "latest": false,
-        "date": "Nov 15, 2020",
-        "title": "Ontagene injoy freida rodanthe futurity ramos suarez"
+        "blogImage": "https://picsum.photos/id/386/356/212?blur",
+        "badgeColor": "danger",
+        "latest": true,
+        "category": "UX Design",
+        "date": "Jan 06, 2020",
+        "title": "Bleendot xymonk french cliff greeker valencia mccarty"
     },
     {
         "id": 4,
         "blogger": {
-            "name": "Callahan Steele",
-            "image": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+            "name": "Dickson Woodward",
+            "image": "https://randomuser.me/api/portraits/thumb/men/69.jpg"
         },
-        "blogImage": "https://picsum.photos/id/589/356/212?blur",
-        "badgeColor": "danger",
+        "blogImage": "https://picsum.photos/id/832/356/212?blur",
+        "badgeColor": "info",
         "latest": false,
-        "date": "Apr 05, 2021",
-        "title": "Lovepad austex francis weeksville lunchpod margie robbins"
+        "category": "UX Design",
+        "date": "Sep 27, 2021",
+        "title": "Eargo utarian louise kansas eplode jenny cherry"
     },
     {
         "id": 5,
         "blogger": {
-            "name": "Morales Miller",
-            "image": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+            "name": "Dodson Donaldson",
+            "image": "https://randomuser.me/api/portraits/thumb/men/49.jpg"
         },
-        "blogImage": "https://picsum.photos/id/617/356/212?blur",
-        "badgeColor": "primary",
+        "blogImage": "https://picsum.photos/id/638/356/212?blur",
+        "badgeColor": "warning",
         "latest": false,
-        "date": "Mar 01, 2020",
-        "title": "Cuizine obliq roman madrid firewax lyons briggs"
+        "category": "Art & Design",
+        "date": "Dec 23, 2020",
+        "title": "Ludak calcula zelma bartonsville daido veronica goodwin"
     },
     {
         "id": 6,
         "blogger": {
-            "name": "Justine Calderon",
-            "image": "https://randomuser.me/api/portraits/thumb/women/78.jpg"
+            "name": "Erna Nolan",
+            "image": "https://randomuser.me/api/portraits/thumb/women/24.jpg"
         },
-        "blogImage": "https://picsum.photos/id/388/356/212?blur",
-        "badgeColor": "info",
+        "blogImage": "https://picsum.photos/id/770/356/212?blur",
+        "badgeColor": "primary",
         "latest": false,
-        "date": "Sep 10, 2020",
-        "title": "Elpro aquamate terry makena momentia woods harding"
+        "category": "Art & Design",
+        "date": "Mar 17, 2021",
+        "title": "Cytrak orboid fuentes watchtower optyk lisa hanson"
     },
     {
         "id": 7,
         "blogger": {
-            "name": "Roberta Cleveland",
-            "image": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+            "name": "Blanche Cummings",
+            "image": "https://randomuser.me/api/portraits/thumb/women/75.jpg"
         },
-        "blogImage": "https://picsum.photos/id/512/356/212?blur",
-        "badgeColor": "warning",
+        "blogImage": "https://picsum.photos/id/777/356/212?blur",
+        "badgeColor": "danger",
         "latest": false,
-        "date": "Oct 28, 2020",
-        "title": "Glasstep crustatia james chilton combot preston manning"
+        "category": "Engineering",
+        "date": "Oct 14, 2020",
+        "title": "Marketoid comtrak liliana clinton orbean goodwin richardson"
     },
     {
         "id": 8,
         "blogger": {
-            "name": "Collins Dorsey",
-            "image": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
+            "name": "Patton Jordan",
+            "image": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
         },
-        "blogImage": "https://picsum.photos/id/366/356/212?blur",
-        "badgeColor": "warning",
+        "blogImage": "https://picsum.photos/id/541/356/212?blur",
+        "badgeColor": "primary",
         "latest": false,
-        "date": "Mar 24, 2020",
-        "title": "Protodyne hinway dolly harviell singavera susanne gordon"
+        "category": "Audio & Music",
+        "date": "Jan 07, 2020",
+        "title": "Geostele zolar bradley eggertsville zillar pamela francis"
     },
     {
         "id": 9,
         "blogger": {
-            "name": "Gonzales Henderson",
-            "image": "https://randomuser.me/api/portraits/thumb/men/26.jpg"
+            "name": "Guerrero Head",
+            "image": "https://randomuser.me/api/portraits/thumb/men/72.jpg"
         },
-        "blogImage": "https://picsum.photos/id/250/356/212?blur",
+        "blogImage": "https://picsum.photos/id/577/356/212?blur",
         "badgeColor": "danger",
         "latest": false,
-        "date": "Aug 27, 2021",
-        "title": "Exposa xplor kathie kylertown ecstasia webster patton"
+        "category": "Engineering",
+        "date": "May 10, 2020",
+        "title": "Kangle zanilla nichole slovan quantasis joyce greer"
     },
     {
         "id": 10,
         "blogger": {
-            "name": "Angelica Cole",
-            "image": "https://randomuser.me/api/portraits/thumb/women/38.jpg"
+            "name": "Helene Knight",
+            "image": "https://randomuser.me/api/portraits/thumb/women/47.jpg"
         },
-        "blogImage": "https://picsum.photos/id/706/356/212?blur",
+        "blogImage": "https://picsum.photos/id/168/356/212?blur",
         "badgeColor": "warning",
         "latest": false,
-        "date": "Jul 20, 2020",
-        "title": "Jasper frosnex mitzi riceville newcube wells griffith"
+        "category": "UX Design",
+        "date": "Sep 30, 2020",
+        "title": "Comtest medcom josefina roberts renovize sandy farley"
     },
     {
         "id": 11,
         "blogger": {
-            "name": "Aurelia Rowe",
-            "image": "https://randomuser.me/api/portraits/thumb/men/51.jpg"
+            "name": "Eliza Gordon",
+            "image": "https://randomuser.me/api/portraits/thumb/men/38.jpg"
         },
-        "blogImage": "https://picsum.photos/id/749/356/212?blur",
-        "badgeColor": "info",
+        "blogImage": "https://picsum.photos/id/827/356/212?blur",
+        "badgeColor": "success",
         "latest": false,
-        "date": "Nov 04, 2020",
-        "title": "Lyria utara bailey eagletown artiq woodard mejia"
+        "category": "UX Design",
+        "date": "Jun 24, 2021",
+        "title": "Geeketron furnafix paula greenbackville enjola pruitt ochoa"
     },
     {
         "id": 12,
         "blogger": {
-            "name": "Obrien Cox",
-            "image": "https://randomuser.me/api/portraits/thumb/men/53.jpg"
+            "name": "Jessie Bartlett",
+            "image": "https://randomuser.me/api/portraits/thumb/men/17.jpg"
         },
-        "blogImage": "https://picsum.photos/id/420/356/212?blur",
-        "badgeColor": "danger",
+        "blogImage": "https://picsum.photos/id/157/356/212?blur",
+        "badgeColor": "info",
         "latest": false,
-        "date": "Sep 14, 2021",
-        "title": "Biotica hyplex adrian salunga izzby tracie sanford"
+        "category": "UX Design",
+        "date": "Apr 14, 2021",
+        "title": "Exerta squish bolton washington jetsilk marina decker"
     }
 ]

@@ -7,7 +7,7 @@ const Courses = () => {
         <section className="courses my-5">
             <Container>
                 <Row>
-                    <h1 className='fw-bold'>Find The Right <br /> Online Course For You</h1>
+                    <h1 className='fw-bold py-5'>Find The Right <br /> Online Course For You</h1>
                     <Course></Course>
                     <Course></Course>
                     <Course></Course>
